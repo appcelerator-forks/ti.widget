@@ -51,7 +51,8 @@ public class SimpleWidgetProvider extends AppWidgetProvider {
 
             // send update on click
             //remoteViews.setOnClickPendingIntent(R.id.actionButton, pendingIntent);
-            //appWidgetManager.updateAppWidget(widgetId, remoteViews);
+            
+            appWidgetManager.updateAppWidget(widgetId, remoteViews);
         }
     }
 }
